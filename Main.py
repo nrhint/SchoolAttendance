@@ -6,18 +6,12 @@
 1) Teachers have to check into mutiple systems to see if a student was excused.
 """
 
-import pickle
 import tkinter
-
-#Here are the vars that you can change:
-
-
+from init import *
+from methods import *
 
 ##This should be the main program
 
 #Load the database:
-
-pickle.load(database
-
+loadData(databaseFile)
 #Read the database:
-
